@@ -1,0 +1,28 @@
+# Android Studio ve Gradle
+.idea/
+.gradle/
+**/build/
+*.iml
+local.properties
+
+# Firebase ve servis hesapları
+app/google-services.json
+**/google-services.json
+**/service-account*.json
+**/firebase-adminsdk*.json
+
+# İmzalama anahtarları ve ortam dosyaları
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
+# Yerel ve üretilen dosyalar
+.externalNativeBuild/
+.cxx/
+captures/
+.DS_Store
+Thumbs.db
